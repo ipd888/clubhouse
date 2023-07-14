@@ -86,6 +86,7 @@ if len(content) == 3:
     print("用户名:", username)
 else:
     print("code.txt 文件格式不正确")
+    exit()
 
 options = uc.ChromeOptions()
 # s5代理
